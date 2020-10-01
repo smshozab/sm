@@ -1,0 +1,112 @@
+/*@media screen and ( max-width: 1024px ) {
+img.responsive { width: 200px; }
+}
+@media screen and ( min-width: 1025px) {
+img.responsive { width: 300px;}
+}
+img.responsive { height: auto; } 
+
+@media screen and ( max-width: 1024px ) {
+img { width: 200px; }
+}
+@media screen and ( min-width:1025px ) and ( max-width: 1280px ) {
+img { width: 300px; }
+}
+@media screen and ( min-width: 1081px ) {
+img { width: 400px; }
+}
+img { height: auto; }
+@media screen and ( max-width: 1024px ) {
+.probootstrap-intro{
+ width: 1000px;
+}
+}
+.probootstrap-intro{
+  width: 10%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: contain;  
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.center-fit{
+        margin: 0;
+        padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+}*/
+.output {
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  color:white;
+h1 {
+    font-size:10px;
+  }
+}
+
+/* Cursor Styling */
+
+.cursor::after {
+  content:;
+  display: inline-block;
+  margin-left: 3px;
+  background-color: white;
+  animation-name:blink;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+}
+h1.cursor::after {
+  height:24px;
+  width:13px;
+}
+p.cursor::after {
+  height:13px;
+  width:6px;
+}
+
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  49% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+/*
+.br{
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	position: absolute;
+	border-top: 600px;
+}*/
+.br{
+	border-radius: 50%;
+    position:relative; 
+    /*left:80px;
+    bottom: -100px;
+    clear: left;
+    float: bottom;
+    background-size: cover;
+}*/
+.dark-mode {
+  background-color: black;
+  color: white;
+}
